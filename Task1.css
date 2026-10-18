@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Стилизация переключателя One way / Round trip */
+.trip-switch {
+    background-color: #e9ecef;
+}
+
+.trip-switch .btn-check:checked + .label,
+.trip-switch .btn-check:checked + .btn {
+    background-color: #0F6B5F;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.trip-switch .btn {
+    border: none;
+    color: #495057;
+}
+
+.trip-switch .btn:hover {
+    color: #0F6B5F;
+}
+
+/* Поля ввода */
+.custom-input, .custom-input-group {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 10px 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-input:focus, .custom-input-group:focus-within {
+    border-color: #0F6B5F;
+    box-shadow: 0 0 0 0.25rem rgba(15, 107, 95, 0.15);
+    background-color: #fff;
+}
+
+/* Кастомные радиокнопки */
+.custom-radio:checked {
+    background-color: #0F6B5F;
+    border-color: #0F6B5F;
+}
+
+/* Кнопки формы */
+.submit-btn {
+    background-color: #F2A93B;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #d89531;
+    color: #fff;
+}
+
+.clear-btn {
+    border: 1px solid #ced4da;
+    background-color: #fff;
+}
+
+.clear-btn:hover {
+    background-color: #f1f3f5;
+}
